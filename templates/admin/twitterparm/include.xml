@@ -1,0 +1,10 @@
+{* purpose of this template: twitterparms xml inclusion template in admin area *}
+<twitterparm id="{$item.id}" createdon="{$item.createdDate|dateformat}" updatedon="{$item.updatedDate|dateformat}">
+    <id>{$item.id}</id>
+    <consumerKey><![CDATA[{$item.consumerKey}]]></consumerKey>
+    <consumerSecret><![CDATA[{$item.consumerSecret}]]></consumerSecret>
+    <accessKey><![CDATA[{$item.accessKey}]]></accessKey>
+    <accessSecret><![CDATA[{$item.accessSecret}]]></accessSecret>
+    <hashtag><![CDATA[{$item.hashtag}]]></hashtag>
+    <workflowState>{$item.workflowState|tweetieObjectState:false|lower}</workflowState>
+</twitterparm>

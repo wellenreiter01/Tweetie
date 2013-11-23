@@ -1,0 +1,51 @@
+body {
+    background-color: #ddd;
+    margin: 10px;
+    text-align: left;
+}
+
+.tweetyform fieldset,
+.tweetyform fieldset legend {
+    background-color: #fff;
+    border: none;
+}
+
+#tweetyitemcontainer {
+    background-color: #eee;
+    height: 300px;
+    overflow: auto;
+    padding: 5px;
+}
+
+#tweetyitemcontainer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tweetyitemcontainer a {
+    color: #000;
+    margin: 0.1em 0.2em;
+    text-decoration: underline;
+}
+#tweetyitemcontainer a:hover,
+#tweetyitemcontainer a:focus,
+#tweetyitemcontainer a:active {
+    color: #900;
+    text-decoration: none;
+}
+
+#tweetyitemcontainer a img {
+    border: none;
+}
+
+#tweetyitemcontainer a img {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    padding: 0.5em;
+}
+#tweetyitemcontainer a:hover img,
+#tweetyitemcontainer a:focus img,
+#tweetyitemcontainer a:active img {
+    background-color: #fff;
+}

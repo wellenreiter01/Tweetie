@@ -1,0 +1,3 @@
+{* purpose of this template: twitterparms display json view in admin area *}
+{tweetieTemplateHeaders contentType='application/json'}
+{$twitterparm->toJson()}

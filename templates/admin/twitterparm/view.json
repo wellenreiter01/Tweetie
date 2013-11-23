@@ -1,0 +1,8 @@
+{* purpose of this template: twitterparms view json view in admin area *}
+{tweetieTemplateHeaders contentType='application/json'}
+[
+{foreach item='item' from=$items name='twitterparms'}
+    {if not $smarty.foreach.twitterparms.first},{/if}
+    {$item->toJson()}
+{/foreach}
+]

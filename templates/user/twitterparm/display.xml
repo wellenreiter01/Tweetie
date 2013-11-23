@@ -1,0 +1,4 @@
+{* purpose of this template: twitterparms display xml view in user area *}
+{tweetieTemplateHeaders contentType='text/xml'}<?xml version="1.0" encoding="{charset}" ?>
+{getbaseurl assign='baseurl'}
+{include file='user/twitterparm/include.xml' item=$twitterparm}

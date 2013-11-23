@@ -1,0 +1,6 @@
+{* purpose of this template: twitterparms view csv view in admin area *}
+{tweetieTemplateHeaders contentType='text/comma-separated-values; charset=iso-8859-15' asAttachment=true filename='Twitterparms.csv'}
+"{gt text='Consumer key'}";"{gt text='Consumer secret'}";"{gt text='Access key'}";"{gt text='Access secret'}";"{gt text='Hashtag'}";"{gt text='Workflow state'}"
+{foreach item='twitterparm' from=$items}
+    "{$twitterparm.consumerKey|replace:"\"":""}";"{$twitterparm.consumerSecret|replace:"\"":""}";"{$twitterparm.accessKey|replace:"\"":""}";"{$twitterparm.accessSecret|replace:"\"":""}";"{$twitterparm.hashtag|replace:"\"":""}";"{$item.workflowState|tweetieObjectState:false|lower}"
+{/foreach}

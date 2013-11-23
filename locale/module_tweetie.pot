@@ -1,0 +1,902 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-23 13:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: workflows/function.none_permissioncheck.php:55
+msgid "None workflow (no approval)"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:56
+msgid ""
+"This is like a non-existing workflow. Everything is online immediately after "
+"creation."
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:60
+#: lib/Tweetie/Util/Base/Workflow.php:28
+msgid "Initial"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:60
+msgid "Pseudo-state for content which is just created and not persisted yet."
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:61
+#: lib/Tweetie/Util/Base/ListEntries.php:156
+#: lib/Tweetie/Util/Base/Workflow.php:31
+msgid "Approved"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:61
+#: lib/Tweetie/Util/Base/ListEntries.php:157
+msgid "Content has been approved and is available online."
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:62
+#: lib/Tweetie/Util/Base/Workflow.php:34
+msgid "Deleted"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:62
+msgid "Pseudo-state for content which has been deleted from the database."
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:68
+#: templates/admin/twitterparm/view.tpl:134
+msgid "Submit"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:68
+msgid "Submit content."
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:72
+msgid "Update"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:72
+msgid "Update content."
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:73
+#: templates/admin/twitterparm/view.tpl:132
+msgid "Delete"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:73
+msgid "Delete content permanently."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:36
+msgid "This is a required field."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:37
+msgid "Please enter a valid number in this field."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:38
+msgid ""
+"Please use numbers only in this field. please avoid spaces or other "
+"characters such as dots or commas."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:39
+msgid "Please use letters only (a-z) in this field."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:40
+msgid ""
+"Please use only letters (a-z) or numbers (0-9) only in this field. No spaces "
+"or other characters are allowed."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:41
+msgid "Please enter a valid date."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:42
+msgid "Please enter a valid email address. For example yourname@example.com ."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:43
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:44
+msgid ""
+"Please use this date format: dd/mm/yyyy. For example 17/03/2010 for the 17th "
+"of March, 2010."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:45
+msgid "Please enter a valid $ amount. For example $100.00 ."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:46
+msgid "Please make a selection."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:47
+msgid "Please select one of the above options."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:50
+msgid "This value must not contain spaces."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:51
+msgid "Please select a valid html colour code."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:52
+#: templates/plugins/function.tweetieValidationError.php:54
+#: templates/plugins/function.tweetieValidationError.php:56
+msgid "Please select a value in the past."
+msgstr ""
+
+#: templates/plugins/function.tweetieValidationError.php:53
+#: templates/plugins/function.tweetieValidationError.php:55
+#: templates/plugins/function.tweetieValidationError.php:57
+msgid "Please select a value in the future."
+msgstr ""
+
+#: templates/plugins/function.tweetieTemplateSelector.php:30
+#: templates/block/itemlist_modify.tpl:52
+msgid "Only item titles"
+msgstr ""
+
+#: templates/plugins/function.tweetieTemplateSelector.php:31
+#: templates/block/itemlist_modify.tpl:53
+msgid "With description"
+msgstr ""
+
+#: templates/plugins/function.tweetieTemplateSelector.php:32
+#: templates/contenttype/itemlist_edit.tpl:68
+#: templates/block/itemlist_modify.tpl:54
+#: templates/block/itemlist_modify.tpl:59
+msgid "Custom template"
+msgstr ""
+
+#: templates/plugins/function.tweetieObjectTypeSelector.php:30
+#: lib/Tweetie/Api/Base/Admin.php:36 templates/search/options.tpl:5
+#: templates/block/itemlist_modify.tpl:5
+msgid "Twitterparms"
+msgstr ""
+
+#: templates/plugins/function.tweetieTemplateHeaders.php:31
+#, php-format
+msgid "%1$s: missing parameter '%2$s'"
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:238
+msgid "Error! Could not determine workflow actions."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:290
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:322
+#: lib/Tweetie/Controller/Base/User.php:78
+#: lib/Tweetie/Controller/Base/Admin.php:119
+#: lib/Tweetie/Controller/Base/External.php:88
+msgid "No such item."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:468
+msgid "Done! Item created."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:470
+msgid "Error! Creation attempt failed."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:475
+#: lib/Tweetie/Controller/Base/Admin.php:376
+msgid "Done! Item updated."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:477
+msgid "Error! Update attempt failed."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:482
+#: lib/Tweetie/Controller/Base/Admin.php:374
+msgid "Done! Item deleted."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Base/Edit.php:484
+msgid "Error! Deletion attempt failed."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Twitterparm/Base/Edit.php:160
+msgid "Done! Twitterparm created."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Twitterparm/Base/Edit.php:162
+#: lib/Tweetie/Form/Handler/Admin/Twitterparm/Base/Edit.php:169
+msgid "Done! Twitterparm updated."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Twitterparm/Base/Edit.php:166
+msgid "Done! Twitterparm deleted."
+msgstr ""
+
+#: lib/Tweetie/Form/Handler/Admin/Twitterparm/Base/Edit.php:195
+#: lib/Tweetie/Controller/Base/Admin.php:366
+#, php-format
+msgid ""
+"Sorry, but an unknown error occured during the %s action. Please apply the "
+"changes again!"
+msgstr ""
+
+#: lib/Tweetie/Form/Plugin/Base/ColourInput.php:96
+msgid "Close"
+msgstr ""
+
+#: lib/Tweetie/Form/Plugin/Base/ColourInput.php:140
+msgid "Error! Invalid colour."
+msgstr ""
+
+#: lib/Tweetie/ContentType/Base/Item.php:52
+msgid "Tweetie detail view"
+msgstr ""
+
+#: lib/Tweetie/ContentType/Base/Item.php:64
+msgid "Display or link a single Tweetie object."
+msgstr ""
+
+#: lib/Tweetie/ContentType/Base/Item.php:119
+msgid "No item selected."
+msgstr ""
+
+#: lib/Tweetie/ContentType/Base/ItemList.php:90
+#: lib/Tweetie/Block/Base/ItemList.php:41
+msgid "Tweetie list view"
+msgstr ""
+
+#: lib/Tweetie/ContentType/Base/ItemList.php:102
+#: lib/Tweetie/Block/Base/ItemList.php:42
+msgid "Display list of Tweetie objects."
+msgstr ""
+
+#: lib/Tweetie/Base/Installer.php:31 lib/Tweetie/Base/Installer.php:109
+msgid "Doctrine Exception: "
+msgstr ""
+
+#: lib/Tweetie/Base/Installer.php:33
+#, php-format
+msgid ""
+"An error was encountered while creating the tables for the %s extension."
+msgstr ""
+
+#: lib/Tweetie/Base/Installer.php:35
+msgid ""
+"Please enable the development mode by editing the /config/config.php file in "
+"order to reveal the error details."
+msgstr ""
+
+#: lib/Tweetie/Base/Installer.php:102
+#, php-format
+msgid ""
+"An error was encountered while removing stored object workflows for the %s "
+"extension."
+msgstr ""
+
+#: lib/Tweetie/Base/Installer.php:111
+#, php-format
+msgid ""
+"An error was encountered while dropping the tables for the %s extension."
+msgstr ""
+
+#: lib/Tweetie/Base/Installer.php:168
+msgid ""
+"Sorry, but an unknown error occured during example data creation. Possibly "
+"not all data could be created properly!"
+msgstr ""
+
+#: lib/Tweetie/Base/Version.php:30 templates/user/header.tpl:12
+msgid "Tweetie"
+msgstr ""
+
+#: lib/Tweetie/Base/Version.php:32
+msgid "Tweetie module generated by ModuleStudio 0.6.0."
+msgstr ""
+
+#. ! url version of name, should be in lowercase without space
+#: lib/Tweetie/Base/Version.php:34
+msgid "tweetie"
+msgstr ""
+
+#: lib/Tweetie/Base/Version.php:68
+msgid "tweetie Twitterparms Display Hooks"
+msgstr ""
+
+#: lib/Tweetie/Base/Version.php:86
+msgid "tweetie Twitterparms Filter Hooks"
+msgstr ""
+
+#: lib/Tweetie/Block/Base/ItemList.php:37
+msgid ""
+"Notice: This block will not be displayed until you activate the Tweetie "
+"module."
+msgstr ""
+
+#: lib/Tweetie/Block/Base/ItemList.php:150
+msgid "Tweetie items"
+msgstr ""
+
+#: lib/Tweetie/Version.php:22
+msgid "Tweetie Hook Handlers"
+msgstr ""
+
+#: lib/Tweetie/Util/Base/ListEntries.php:160
+msgid "All except approved"
+msgstr ""
+
+#: lib/Tweetie/Util/Base/ListEntries.php:161
+msgid "Shows all items except these which are approved"
+msgstr ""
+
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:31
+#, php-format
+msgid "Error! Field value may only contain digits (%s)."
+msgstr ""
+
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:35
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:43
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:51
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:59
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:67
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:75
+#, php-format
+msgid "Error! Length of field value must not be higher than %2$s (%1$s)."
+msgstr ""
+
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:39
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:47
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:55
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:63
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:71
+#: lib/Tweetie/Entity/Validator/Base/Twitterparm.php:79
+#, php-format
+msgid "Error! Field value must not be empty (%s)."
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:576
+msgid "Error! Could not load the associated workflow."
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:645
+msgid "Open preview page"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:646
+msgid "Preview"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:652
+#: templates/admin/twitterparm/display.tpl:8
+msgid "Details"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:662
+#: lib/Tweetie/Entity/Base/Twitterparm.php:663
+msgid "Edit"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:668
+msgid "Reuse for new item"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:669
+msgid "Reuse"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:677
+#: lib/Tweetie/Entity/Base/Twitterparm.php:678
+msgid "Back to overview"
+msgstr ""
+
+#: lib/Tweetie/Entity/Base/Twitterparm.php:830
+msgid "Error! Could not remove stored workflow. Deletion has been aborted."
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Search.php:131
+msgid "Item"
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Search.php:145
+msgid "Error! Could not save the search results."
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Mailz.php:32
+msgid "3 newest twitterparms"
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Mailz.php:33
+msgid "A list of the three newest twitterparms."
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Mailz.php:38
+msgid "3 random twitterparms"
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Mailz.php:39
+msgid "A list of three random twitterparms."
+msgstr ""
+
+#: lib/Tweetie/Api/Base/User.php:30
+msgid "Backend"
+msgstr ""
+
+#: lib/Tweetie/Api/Base/User.php:31
+msgid "Switch to administration area."
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Admin.php:30
+msgid "Frontend"
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Admin.php:31
+msgid "Switch to user area."
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Admin.php:37 templates/admin/twitterparm/view.tpl:4
+msgid "Twitterparm list"
+msgstr ""
+
+#: lib/Tweetie/Api/Base/Account.php:51
+msgid "Tweetie Backend"
+msgstr ""
+
+#: lib/Tweetie/Controller/Base/User.php:75
+#: lib/Tweetie/Controller/Base/Admin.php:116
+#: lib/Tweetie/Controller/Base/External.php:81
+msgid "Error! Invalid identifier received."
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:5
+#: templates/external/twitterparm/find.tpl:37
+msgid "Search and select twitterparm"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:40
+msgid "Paste as"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:42
+msgid "Link to the twitterparm"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:43
+msgid "ID of twitterparm"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:49
+#: templates/external/twitterparm/select.tpl:14
+#: templates/admin/twitterparm/display.tpl:4
+#: templates/user/twitterparm/display.tpl:4
+msgid "Twitterparm"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:63
+#: templates/external/twitterparm/select.tpl:21
+#: templates/contenttype/itemlist_twitterparm_display_description.tpl:11
+msgid "No entries found."
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:70
+#: templates/external/twitterparm/select.tpl:27
+#: templates/admin/twitterparm/view_quickNav.tpl:26
+msgid "Sort by"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:72
+#: templates/external/twitterparm/select.tpl:29
+#: templates/admin/twitterparm/view_quickNav.tpl:29
+msgid "Id"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:73
+#: templates/external/twitterparm/select.tpl:30
+#: templates/admin/twitterparm/view_quickNav.tpl:13
+#: templates/admin/twitterparm/view_quickNav.tpl:30
+#: templates/admin/twitterparm/view.csv:3
+msgid "Workflow state"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:74
+#: templates/external/twitterparm/select.tpl:31
+#: templates/admin/twitterparm/view_quickNav.tpl:31
+#: templates/admin/twitterparm/view.tpl:57
+#: templates/admin/twitterparm/edit.tpl:33
+#: templates/admin/twitterparm/view.csv:3
+msgid "Consumer key"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:75
+#: templates/external/twitterparm/select.tpl:32
+#: templates/admin/twitterparm/display.tpl:14
+#: templates/admin/twitterparm/view_quickNav.tpl:32
+#: templates/admin/twitterparm/view.tpl:60
+#: templates/admin/twitterparm/edit.tpl:39
+#: templates/admin/twitterparm/view.csv:3
+#: templates/user/twitterparm/display.tpl:12
+msgid "Consumer secret"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:76
+#: templates/external/twitterparm/select.tpl:33
+#: templates/admin/twitterparm/display.tpl:16
+#: templates/admin/twitterparm/view_quickNav.tpl:33
+#: templates/admin/twitterparm/view.tpl:63
+#: templates/admin/twitterparm/edit.tpl:45
+#: templates/admin/twitterparm/view.csv:3
+#: templates/user/twitterparm/display.tpl:14
+msgid "Access key"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:77
+#: templates/external/twitterparm/select.tpl:34
+#: templates/admin/twitterparm/display.tpl:18
+#: templates/admin/twitterparm/view_quickNav.tpl:34
+#: templates/admin/twitterparm/view.tpl:66
+#: templates/admin/twitterparm/edit.tpl:51
+#: templates/admin/twitterparm/view.csv:3
+#: templates/user/twitterparm/display.tpl:16
+msgid "Access secret"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:78
+#: templates/external/twitterparm/select.tpl:35
+#: templates/admin/twitterparm/display.tpl:20
+#: templates/admin/twitterparm/view_quickNav.tpl:35
+#: templates/admin/twitterparm/view.tpl:69
+#: templates/admin/twitterparm/edit.tpl:57
+#: templates/admin/twitterparm/view.csv:3
+#: templates/user/twitterparm/display.tpl:18
+msgid "Hashtag"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:79
+#: templates/external/twitterparm/select.tpl:36
+#: templates/admin/twitterparm/view_quickNav.tpl:36
+msgid "Creation date"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:80
+#: templates/external/twitterparm/select.tpl:37
+#: templates/admin/twitterparm/view_quickNav.tpl:37
+msgid "Creator"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:81
+#: templates/external/twitterparm/select.tpl:38
+#: templates/admin/twitterparm/view_quickNav.tpl:38
+msgid "Update date"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:84
+#: templates/external/twitterparm/select.tpl:41
+#: templates/admin/twitterparm/view_quickNav.tpl:41
+msgid "ascending"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:85
+#: templates/external/twitterparm/select.tpl:42
+#: templates/admin/twitterparm/view_quickNav.tpl:42
+msgid "descending"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:90
+#: templates/admin/twitterparm/view_quickNav.tpl:49
+msgid "Page size"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:103
+#: templates/external/twitterparm/select.tpl:47
+msgid "Search for"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:105
+#: templates/external/twitterparm/select.tpl:49
+msgid "Filter"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:111
+msgid "Change selection"
+msgstr ""
+
+#: templates/external/twitterparm/find.tpl:112
+#: templates/admin/twitterparm/edit.tpl:105
+msgid "Cancel"
+msgstr ""
+
+#: templates/external/twitterparm/select.tpl:4
+msgid "Twitterparm information"
+msgstr ""
+
+#: templates/admin/twitterparm/display.tpl:9
+#: templates/admin/twitterparm/view.tpl:71
+#: templates/admin/twitterparm/view.tpl:104
+#: templates/user/twitterparm/display.tpl:8
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/twitterparm/view.rss:11
+#: templates/admin/twitterparm/view.atom:4
+msgid "Latest twitterparms"
+msgstr ""
+
+#: templates/admin/twitterparm/view.rss:12
+#: templates/admin/twitterparm/view.atom:5
+msgid "A direct feed showing the list of twitterparms"
+msgstr ""
+
+#: templates/admin/twitterparm/view_quickNav.tpl:6
+msgid "Quick navigation"
+msgstr ""
+
+#: templates/admin/twitterparm/view_quickNav.tpl:11
+#: templates/block/itemlist_modify.tpl:11
+msgid "All"
+msgstr ""
+
+#: templates/admin/twitterparm/view_quickNav.tpl:22
+msgid "Search"
+msgstr ""
+
+#: templates/admin/twitterparm/view_quickNav.tpl:61
+msgid "OK"
+msgstr ""
+
+#: templates/admin/twitterparm/include_displayItemListMany.tpl:16
+#: templates/admin/twitterparm/include_displayItemListOne.tpl:13
+#: templates/user/twitterparm/include_displayItemListMany.tpl:16
+#: templates/user/twitterparm/include_displayItemListOne.tpl:13
+msgid "Open quick view window"
+msgstr ""
+
+#: templates/admin/twitterparm/include_displayItemListMany.tpl:16
+#: templates/admin/twitterparm/include_displayItemListOne.tpl:13
+#: templates/user/twitterparm/include_displayItemListMany.tpl:16
+#: templates/user/twitterparm/include_displayItemListOne.tpl:13
+msgid "Quick view"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:12
+#: templates/admin/twitterparm/edit.tpl:10
+msgid "Create twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:21
+msgid "Back to paginated view"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:27
+msgid "Show all entries"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:54
+msgid "State"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:85
+msgid "View detail page"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:117
+#: templates/mailz/itemlist_twitterparm_html.tpl:10
+#: templates/mailz/itemlist_twitterparm_text.tpl:7
+msgid "No twitterparms found."
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:129
+msgid "With selected twitterparms"
+msgstr ""
+
+#: templates/admin/twitterparm/view.tpl:131
+msgid "Choose action"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:7
+#: templates/admin/twitterparm/edit.tpl:13
+msgid "Edit twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:30
+msgid "Content"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:34
+msgid "Enter the consumer key of the twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:40
+msgid "Enter the consumer secret of the twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:46
+msgid "Enter the access key of the twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:52
+msgid "Enter the access secret of the twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:58
+msgid "Enter the hashtag of the twitterparm"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:84
+msgid "Return control"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:86
+msgid "Create another item after save"
+msgstr ""
+
+#: templates/admin/twitterparm/edit.tpl:99
+msgid "Really delete this twitterparm?"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:4
+#: templates/admin/include_standardfields_edit.tpl:9
+#: templates/admin/include_standardfields_display.tpl:4
+#: templates/admin/include_standardfields_display.tpl:7
+#: templates/user/include_standardfields_display.tpl:4
+#: templates/user/include_standardfields_display.tpl:7
+msgid "Creation and update"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:13
+#, php-format
+msgid "Created by %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:14
+#, php-format
+msgid "Created on %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:18
+#, php-format
+msgid "Updated by %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_edit.tpl:19
+#, php-format
+msgid "Updated on %s"
+msgstr ""
+
+#: templates/admin/include_standardfields_display.tpl:11
+#: templates/user/include_standardfields_display.tpl:11
+msgid "Creation"
+msgstr ""
+
+#: templates/admin/include_standardfields_display.tpl:22
+#: templates/user/include_standardfields_display.tpl:22
+#, php-format
+msgid "Created by %1$s on %2$s"
+msgstr ""
+
+#: templates/admin/include_standardfields_display.tpl:25
+#: templates/user/include_standardfields_display.tpl:25
+msgid "Last update"
+msgstr ""
+
+#: templates/admin/include_standardfields_display.tpl:36
+#: templates/user/include_standardfields_display.tpl:36
+#, php-format
+msgid "Updated by %1$s on %2$s"
+msgstr ""
+
+#: templates/contenttype/item_edit.tpl:5
+#: templates/contenttype/itemlist_edit.tpl:4
+#: templates/block/itemlist_modify.tpl:3
+msgid "Object type"
+msgstr ""
+
+#: templates/contenttype/item_edit.tpl:8
+#: templates/contenttype/itemlist_edit.tpl:8
+msgid ""
+"If you change this please save the element once to reload the parameters "
+"below."
+msgstr ""
+
+#: templates/contenttype/item_edit.tpl:17
+msgid "Link to object"
+msgstr ""
+
+#: templates/contenttype/item_edit.tpl:19
+msgid "Embed object display"
+msgstr ""
+
+#: templates/contenttype/itemlist_twitterparm_display_description.tpl:8
+#: templates/contenttype/itemlist_twitterparm_display.tpl:4
+msgid "Read more"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:23
+#: templates/block/itemlist_modify.tpl:16
+msgid "Category"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:26
+#: templates/block/itemlist_modify.tpl:21
+msgid "Categories"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:31
+#: templates/block/itemlist_modify.tpl:29
+msgid "This is an optional filter."
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:39
+#: templates/block/itemlist_modify.tpl:36
+msgid "Sorting"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:43
+#: templates/block/itemlist_modify.tpl:38
+msgid "Random"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:46
+#: templates/block/itemlist_modify.tpl:39
+msgid "Newest"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:49
+#: templates/block/itemlist_modify.tpl:40
+msgid "Default"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:55
+#: templates/block/itemlist_modify.tpl:45
+msgid "Amount"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:61
+#: templates/block/itemlist_modify.tpl:50
+msgid "Template"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:71
+#: templates/block/itemlist_modify.tpl:61
+msgid "Example"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:75
+#: templates/block/itemlist_modify.tpl:65
+msgid "Filter (expert option)"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:78
+#: templates/block/itemlist_modify.tpl:67
+msgid "Syntax examples"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:78
+#: templates/block/itemlist_modify.tpl:67
+msgid "or"
+msgstr ""
+
+#: templates/block/itemlist_modify.tpl:7
+msgid ""
+"If you change this please save the block once to reload the parameters below."
+msgstr ""

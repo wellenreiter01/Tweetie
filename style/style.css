@@ -1,0 +1,70 @@
+/* view pages */
+div#z-maincontent.z-module-tweetie table tbody tr td {
+    vertical-align: top;
+}
+
+/* display pages */
+.tweetie-display.withrightbox div.z-panel-content {
+    float: left;
+    width: 79%;
+}
+.tweetie-display div.tweetierightbox {
+    float: right;
+    margin: 0 1em;
+    padding: .5em;
+    width: 20%;
+    /*border: 1px solid #666;*/
+}
+
+.tweetie-display div.tweetierightbox h3 {
+    color: #333;
+    font-weight: 400;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 8px;
+}
+
+.tweetie-display div.tweetierightbox p.manageLink {
+    margin-left: 18px;
+}
+.tweetieColourPicker {
+    cursor: pointer;
+}
+/* validation */
+div.z-formrow input.required, div.z-formrow textarea.required {
+    border: 1px solid #00a8e6;
+}
+div.z-formrow input.validation-failed, div.z-formrow textarea.validation-failed {
+    border: 1px solid #f30;
+    color: #f30;
+}
+div.z-formrow input.validation-passed, div.z-formrow textarea.validation-passed {
+    border: 1px solid #0c0;
+    color: #000;
+}
+
+.validation-advice {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f90;
+    color: #fff;
+    font-weight: 700;
+}
+div.tweetie-view form.tweetyQuickNavForm {
+    margin: 10px 0;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+}
+
+div.tweetie-view form.tweetyQuickNavForm fieldset {
+    padding: 3px 10px;
+    margin-bottom: 0;
+}
+
+div.tweetie-view form.tweetyQuickNavForm fieldset h3 {
+    margin-top: 0;
+}
+
+div.tweetie-view form.tweetyQuickNavForm fieldset #num {
+    width: 50px;
+    text-align: right;
+}

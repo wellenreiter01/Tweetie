@@ -1,0 +1,9 @@
+{* purpose of this template: twitterparms view xml view in admin area *}
+{tweetieTemplateHeaders contentType='text/xml'}<?xml version="1.0" encoding="{charset}" ?>
+<twitterparms>
+{foreach item='item' from=$items}
+    {include file='admin/twitterparm/include.xml'}
+{foreachelse}
+    <noTwitterparm />
+{/foreach}
+</twitterparms>
