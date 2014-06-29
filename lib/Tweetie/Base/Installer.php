@@ -151,8 +151,8 @@ class Tweetie_Base_Installer extends Zikula_AbstractInstaller
         $twitterparm1 = new \Tweetie_Entity_Twitterparm();
         
         $twitterparm1->setWorkflowState('initial');
-        $twitterparm1->setConsumerKey('Twitterparm consumer key 1');
-        $twitterparm1->setConsumerSecret('Twitterparm consumer secret 1');
+        $twitterparm1->setConsumerKey('Twitterparm API key 1');
+        $twitterparm1->setConsumerSecret('Twitterparm API secret 1');
         $twitterparm1->setAccessKey('Twitterparm access key 1');
         $twitterparm1->setAccessSecret('Twitterparm access secret 1');
         $twitterparm1->setHashtag(substr('Twitterparm hashtag', 0, 6) . ' 1'
