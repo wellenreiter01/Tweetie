@@ -19,4 +19,4 @@ Further information in docs/install.md
 
 
 Wellenreiter (wellenreiter01@t-online.de)
-http://www.keine.de
+
